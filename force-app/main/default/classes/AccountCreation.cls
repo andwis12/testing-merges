@@ -4,5 +4,12 @@ Public class AccountCreation {
         a.Name = mateusz;
         insert a;
         return a;
-    } 
+    }
+
+    Public Contact createAccount(String name){ 
+        Contact a= new Account();
+        a.Name = cabajara;
+        insert a;
+        return a;
+    }
 }
